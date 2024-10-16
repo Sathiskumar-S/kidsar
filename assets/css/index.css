@@ -37,7 +37,7 @@ a {
 
 ::-webkit-scrollbar{
   width: 1rem;
-  border: 1px solid var(--main-bg-color);
+  border: 0 solid var(--btn-bg-color);
 }
 
 ::-webkit-scrollbar-track{
@@ -47,6 +47,49 @@ a {
 
 ::-webkit-scrollbar-thumb{
   border-radius: 2rem;
-  background:  var(--icon-color);
+  background:  var(--btn-bg-color);
   width: .5rem;
+}
+
+
+/* Hero section css  */
+
+.navbar{
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.navbar ul li a{
+  font-size: 20px;
+  font-weight: 200;
+  padding: 20px 24px !important;
+}
+
+.title h1{
+  padding: 10px 20px !important;
+  margin-right: 250px;
+  margin-left: 35px;
+}
+
+.hero_container{
+  height: 100vh;
+  background: linear-gradient(to right, #FFE996 0%, #FFE996 50%, #FECC10 50%, #FECC10 100%);
+}
+
+.search-bar{
+  border: none;
+  border-radius: 15px;
+  background-color: var(--secondary-bg-color-2);
+  padding: 7px 15px !important;
+  margin-right: 10px;
+}
+
+.cart-icon{
+  padding: 10px 20px !important;
+  cursor: pointer;
+}
+
+.signup-btn{
+  border-radius: 20px;
+  padding: 7px 20px;
 }

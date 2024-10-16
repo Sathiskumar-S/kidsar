@@ -13,13 +13,15 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 
     <!-- Custom CSS  -->
-    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/index.css?<?php echo time();?>">
 </head>
 
 <body>
     <main>
-        <?php loadTemplate("_nav");?>
-        <?php loadTemplate("_hero");?>
+        <div class="hero_container">
+            <?php loadTemplate("_nav");?>
+            <?php loadTemplate("_hero");?>
+        </div>
         <?php loadTemplate("_welcome");?>
         <?php loadTemplate("_bestbook");?>
         <?php loadTemplate("_help");?>
