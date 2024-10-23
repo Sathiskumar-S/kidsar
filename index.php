@@ -14,6 +14,9 @@
 
     <!-- Custom CSS  -->
     <link rel="stylesheet" href="./assets/css/index.css?<?php echo time();?>">
+
+    <!-- this is for "how can we help you" -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
