@@ -96,8 +96,6 @@ a {
 
 
 /* help section */
-
-
 h2.section-heading {
   font-family: 'Playfair Display', serif;
   font-size: 48px;
@@ -110,7 +108,7 @@ h2.section-heading {
 .help-section {
   text-align: center;
   padding: 50px;
-  background-color: #f8f4ed;
+  background-color: var(--main-bg-color);
 }
 
 .help-section h2 {
@@ -160,7 +158,6 @@ h2.section-heading {
 }
 
 /* footer section */
-
 body {
   margin: 0;
   padding: 0;
@@ -440,6 +437,4 @@ body {
     flex-direction: column;
     gap: 20px;
   }
-
-
 } 
